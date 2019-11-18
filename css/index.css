@@ -1,0 +1,159 @@
+body {
+    background-color:white;
+    margin: 0;
+}
+
+/* 
+
+spacing sizes:
+4 8 12 16 24 32 48 64 96 128 192 256 384 512 640 768 px
+
+font sizes: 
+px  12   14    16 18    20   24  30    36   48 60   72
+rem 0.75 0.875 1  1.125 1.25 1.5 1.875 2.25 3  3.75 4.5
+
+warm grey:
+darkest
+hsl(41, 15%, 28%)
+hsl(40, 12%, 23%)
+hsl(39, 12%, 58%)
+hsl(39, 16%, 76%)
+hsl(39, 21%, 88%)
+white
+lightest
+
+*/
+
+#feature {
+    width: 100%;
+
+        padding-bottom: 40%;
+
+    /* margin-top: 50px; */
+    border: 1px solid black;
+    position: relative;
+    background-image: url('/img/feature.jpg');
+    /* background: url('img/feature.jpg') no-repeat center center/100%;  */
+    /* background-attachment: absolute; */
+    /* background-repeat: no-repeat;*/
+    background-size: cover;  
+}
+
+#feature-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+#articles {
+    width: 100%;
+    margin: auto;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    
+}
+
+.article-wrapper {
+    width: 100%;
+    /* height: 100vh; */
+    /* min-height: 900px; */
+}
+
+.article {
+    position: relative;
+    width: 100vw;
+    height: 162vw;
+    /* min-height: 900px; */
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+
+.article-image {
+    position: relative;
+    width: 100%;
+    height: 61.8%;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-header {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.article-text {
+    /* width: 95%; */
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(41, 15%, 28%);
+ 
+}
+
+.article-text h2 {
+    font-size: 1.3rem;
+       margin-left: 4px;
+    margin-right: 4px;
+}
+
+.article-date-wrapper {
+    /* position: absolute; */
+    bottom: 0;
+    left: 4px;
+    width: 100%;
+}
+
+.article-date {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.article-date h3 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0;
+    /* margin-top: 0.8rem; */
+    position: relative;
+}
+
+.article-date h3 span {
+    background-color: white;
+    padding-right: 10px;
+}
+
+.article-date h3:after {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid lightgray;
+    z-index: -1;
+}
+
+.text {
+    width: 90%;
+    max-width: 30em;
+    margin: auto;
+    color: hsl(41, 15%, 28%);
+        background-image: url('img/feature.jpg');
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: sans-serif;
+}
