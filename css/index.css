@@ -1,7 +1,8 @@
 :root {
-  --main-bg-color: #000000;
-  --main-art-color: #111111;
-  --main-text-color: hsla(39, 12%, 58%,0.5);
+  --main-bg-color: white;
+  --main-art-color:white;
+  --main-text-color: hsl(41, 15%, 28%)
+;
 }
 
 body {
@@ -72,7 +73,7 @@ lightest
 
 .article {
     position: relative;
-    width: 90vw;
+    width: 100vw;
     margin: auto;
     /* height: 162vw; */
     cursor: pointer;
@@ -138,6 +139,7 @@ lightest
 .article-date h3 span {
     background-color: var(--main-art-color);
     padding-right: 10px;
+    /* background/-color: white; */
 }
 
 .article-date h3:after {
