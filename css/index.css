@@ -64,7 +64,7 @@ lightest
     width: 100%;
     /* height: 100vh; */
     /* min-height: 900px; */
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
     padding-top: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -77,7 +77,7 @@ lightest
     margin: auto;
     /* height: 162vw; */
     cursor: pointer;
-    background-color: var(--main-art-color);
+    /* background-color: var(--main-art-color); */
 }
 
 .article-image {
@@ -92,11 +92,11 @@ lightest
 .article-header {
     position: absolute;
     bottom: 4px;
-    left: 4px;
-    color: white;
-    text-align: center;
-    width: 100%;
-    font-size: 1.3rem;
+    left: 5%;
+    color: burlywood;
+    /* text-align: center; */
+    /* width: 100%; */
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -113,11 +113,11 @@ lightest
 }
 
 .article-date-wrapper {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    position: relative;
+    position: absolute;
+    left: 5%;
     margin-top: 0.8rem;
-    padding-bottom: 1rem;
     /* bottom: 0;
     left: 4px;
     width: 100%; */
@@ -149,7 +149,7 @@ lightest
     left: 0;
     right: 0;
     height: 0.5em;
-    border-top: 1px solid grey;
+    border-top: 1px solid lightgrey;
     z-index: -1;
 }
 
