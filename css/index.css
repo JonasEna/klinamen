@@ -1,5 +1,11 @@
+:root {
+  --main-bg-color: #000000;
+  --main-art-color: #111111;
+  --main-text-color: hsla(39, 12%, 58%,0.5);
+}
+
 body {
-    background-color: white;
+    background-color: var(--main-bg-color);
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -57,8 +63,10 @@ lightest
     width: 100%;
     /* height: 100vh; */
     /* min-height: 900px; */
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     /* box-shadow: black; */
 }
 
@@ -68,6 +76,7 @@ lightest
     margin: auto;
     /* height: 162vw; */
     cursor: pointer;
+    background-color: var(--main-art-color);
 }
 
 .article-image {
@@ -93,16 +102,21 @@ lightest
 }
 
 .article-text {
+    width: 90%;
+    margin: auto;
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: 1.1rem;
     font-weight: 300;
     margin-top: 0.8rem;
-    color: hsl(41, 15%, 28%); 
+    color: var(--main-text-color); 
 }
 
 .article-date-wrapper {
+    width: 90%;
+    margin: auto;
     position: relative;
     margin-top: 0.8rem;
+    padding-bottom: 1rem;
     /* bottom: 0;
     left: 4px;
     width: 100%; */
@@ -114,15 +128,15 @@ lightest
 
 .article-date h3 {
     font-size: 0.8rem;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0;
-    color: hsl(40, 12%, 23%);
+    color: hsl(39, 12%, 58%);
     /* margin-top: 0.8rem; */
     position: relative;
 }
 
 .article-date h3 span {
-    background-color: white;
+    background-color: var(--main-art-color);
     padding-right: 10px;
 }
 
@@ -133,7 +147,7 @@ lightest
     left: 0;
     right: 0;
     height: 0.5em;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid grey;
     z-index: -1;
 }
 
