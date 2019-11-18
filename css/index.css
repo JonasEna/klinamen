@@ -27,7 +27,7 @@ lightest
 
 #feature {
     width: 100%;
-    padding-bottom: 40%;
+    padding-bottom: 100%;
     /* margin-top: 50px; */
     border: 1px solid black;
     position: relative;
@@ -57,21 +57,24 @@ lightest
     width: 100%;
     /* height: 100vh; */
     /* min-height: 900px; */
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     /* box-shadow: black; */
 }
 
 .article {
     position: relative;
-    width: 100vw;
-    height: 162vw;
+    width: 90vw;
+    margin: auto;
+    /* height: 162vw; */
     cursor: pointer;
 }
 
 .article-image {
     position: relative;
     width: 100%;
-    height: 61.8%;
+    /* height: 50%; */
+    padding-top: 61.8%;
     background-position: center;
     background-size: cover;
 }
@@ -81,24 +84,28 @@ lightest
     bottom: 4px;
     left: 4px;
     color: white;
-    font-size: 2.25rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
 }
 
 .article-text {
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-top: 4px;
-    margin-left: 4px;
-    margin-right: 4px;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 300;
+    margin-top: 0.8rem;
     color: hsl(41, 15%, 28%); 
 }
 
 .article-date-wrapper {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: 0.8rem;
+    /* bottom: 0;
     left: 4px;
-    width: 100%;
+    width: 100%; */
 }
 
 .article-date {
@@ -106,9 +113,10 @@ lightest
 }
 
 .article-date h3 {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 0.8rem;
+    font-weight: 200;
     margin: 0;
+    color: hsl(40, 12%, 23%);
     /* margin-top: 0.8rem; */
     position: relative;
 }
