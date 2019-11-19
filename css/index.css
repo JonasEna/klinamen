@@ -1,8 +1,8 @@
 :root {
   --main-bg-color: white;
   --main-art-color:white;
-  --main-text-color: hsl(41, 15%, 28%)
-;
+  --main-text-color:black;
+  --light-text-color: grey;
 }
 
 body {
@@ -34,21 +34,30 @@ lightest
 
 #feature {
     width: 100%;
-    padding-bottom: 100%;
+    height: 90vh;
+    /* padding-bottom: 150%; */
     /* margin-top: 50px; */
     border: 1px solid black;
-    position: relative;
+    /* position: relative; */
     background-image: url('/img/feature.jpg');
-    background-size: cover;  
+    background-size: cover; 
+    display: flex;
+    align-items: flex-end; 
+    /* justify-content: center; */
+}
+
+#feature-text-wrapper {
+    padding: 5%;
+    cursor: pointer;
 }
 
 #feature-text {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    margin: 0;
-    padding: 0;
     color: white;
+    font-size: 1rem;
+}
+
+.feature-text-header {
+    font-size: 2rem;
 }
 
 #articles {
@@ -73,7 +82,7 @@ lightest
 
 .article {
     position: relative;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     /* height: 162vw; */
     cursor: pointer;
@@ -82,7 +91,8 @@ lightest
 
 .article-image {
     position: relative;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     /* height: 50%; */
     padding-top: 61.8%;
     background-position: center;
@@ -90,26 +100,28 @@ lightest
 }
 
 .article-header {
-    position: absolute;
+    /* position: absolute;
     bottom: 4px;
-    left: 5%;
-    color: white;
-    text-align: center;
+    left: 5%; */
+    position: relative;
+    color: black;
+    /* text-align: center; */
     width: 90%;
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    /* letter-spacing: -0.03em; */
+    /* text-transform: uppercase; */
 }
 
 .article-text {
     width: 90%;
     margin: auto;
     font-size: 1rem;
-    line-height: 1.1rem;
+    line-height: 1.2rem;
     font-weight: 300;
     margin-top: 0.8rem;
-    text-align: justify;
+    /* text-align: justify; */
     hyphens: auto;
     color: var(--main-text-color); 
 }
@@ -127,24 +139,24 @@ lightest
 
 .article-date {
     position: relative;
+    opacity: 0.9;
 }
 
 .article-date h3 {
     font-size: 0.8rem;
     font-weight: 300;
     margin: 0;
-    color: hsl(39, 12%, 58%);
+    color: var(--light-text-color);
     /* margin-top: 0.8rem; */
     position: relative;
-    text-align: center;
+    text-align: right;
 }
 
 .article-date h3 span {
     background-color: var(--main-art-color);
     padding-right: 6px;
-        padding-left: 6px;
-
-    /* background/-color: white; */
+    padding-left: 6px;
+   /* background/-color: white; */
 }
 
 .article-date h3:after {
@@ -154,7 +166,7 @@ lightest
     left: 0;
     right: 0;
     height: 0.5em;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid var(--light-text-color);
     z-index: -1;
 }
 
