@@ -66,8 +66,8 @@ lightest
     /* min-height: 900px; */
     padding-bottom: 3rem;
     padding-top: 1.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    /* padding-left: 0.5rem; */
+    /* padding-right: 0.5rem; */
     /* box-shadow: black; */
 }
 
@@ -93,9 +93,9 @@ lightest
     position: absolute;
     bottom: 4px;
     left: 5%;
-    color: burlywood;
-    /* text-align: center; */
-    /* width: 100%; */
+    color: white;
+    text-align: center;
+    width: 90%;
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: -0.03em;
@@ -109,11 +109,13 @@ lightest
     line-height: 1.1rem;
     font-weight: 300;
     margin-top: 0.8rem;
+    text-align: justify;
+    hyphens: auto;
     color: var(--main-text-color); 
 }
 
 .article-date-wrapper {
-    width: 100%;
+    width: 90%;
     margin: auto;
     position: absolute;
     left: 5%;
@@ -134,11 +136,14 @@ lightest
     color: hsl(39, 12%, 58%);
     /* margin-top: 0.8rem; */
     position: relative;
+    text-align: center;
 }
 
 .article-date h3 span {
     background-color: var(--main-art-color);
-    padding-right: 10px;
+    padding-right: 6px;
+        padding-left: 6px;
+
     /* background/-color: white; */
 }
 
