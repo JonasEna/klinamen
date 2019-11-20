@@ -1,7 +1,7 @@
 :root {
-  --main-bg-color: white;
+  --main-bg-color: black;
   --main-ingress-color:black;
-  --main-text-color:black;
+  --main-text-color:grey;
   --light-text-color: grey;
 }
 
@@ -73,7 +73,6 @@ body {
     width: 90%;
     max-width: 30em;
     margin: auto;
-    font-family: 'EB Garamond';
     font-size: 1.125rem;
     font-weight: 400;
     color: var(--main-text-color);
