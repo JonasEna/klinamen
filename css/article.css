@@ -1,0 +1,63 @@
+:root {
+  --main-bg-color: white;
+  --main-ingress-color:black;
+  --main-text-color:black;
+  --light-text-color: grey;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cover {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    height: 85vh;
+}
+
+.article-header-img {
+    position: relative;
+    background-image: url('/img/Jupiter.jpg');
+    background-size: cover;
+    /* filter: brightness(40%); */
+    height: 85vh;
+    background-position: center;
+}
+
+.article-header-text {
+    position: absolute;
+    top: 60px;
+    left: 5%;
+    color: white;
+    opacity: 0.9;
+    width: 90%;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    display: none;
+}
+
+
+
+
+.article-ingress {
+    width: 90%;
+    margin: auto;
+    max-width: 30em;
+    color: var(--main-ingress-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    /* display: none; */
+}
+
+.article-text {
+    width: 90%;
+    max-width: 30em;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--main-text-color);
+}
