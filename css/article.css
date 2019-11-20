@@ -20,7 +20,7 @@ body {
 
 .article-header-img {
     position: relative;
-    background-image: url('/img/Jupiter.jpg');
+    /* background-image: url('img/Jupiter.jpg'); */
     background-size: cover;
     /* filter: brightness(40%); */
     height: 85vh;
