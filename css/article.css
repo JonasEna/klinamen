@@ -22,26 +22,41 @@ body {
     position: relative;
     /* background-image: url('img/Jupiter.jpg'); */
     background-size: cover;
-    /* filter: brightness(40%); */
+    filter: brightness(40%);
     height: 85vh;
     background-position: center;
 }
 
 .article-header-text {
     position: absolute;
-    top: 60px;
+    bottom: 3%;
     left: 5%;
-    color: white;
-    opacity: 0.9;
+    color: lightgrey;
+    /* opacity: 0.9; */
     width: 90%;
-    line-height: 1.5rem;
-    font-size: 1.25rem;
+    line-height: 1.25rem;
+    /* font-family: 'EB Garamond'; */
+    font-size: 1.125rem;
     font-weight: 300;
-    display: none;
+
+    /* display: none; */
 }
 
+.article-header-text-name {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-shadow: 0 0 3px grey;
+    margin-bottom: 0.8rem;
+}
 
+.article-header-text-date {
+    color: orange;
+    font-size: 0.8em;
+    margin-bottom: 0.3rem;
+    opacity: 0.7;
 
+}
 
 .article-ingress {
     width: 90%;
@@ -50,14 +65,15 @@ body {
     color: var(--main-ingress-color);
     font-size: 1.25rem;
     font-weight: 500;
-    /* display: none; */
+    display: none;
 }
 
 .article-text {
     width: 90%;
     max-width: 30em;
     margin: auto;
-    font-size: 1rem;
+    font-family: 'EB Garamond';
+    font-size: 1.125rem;
     font-weight: 400;
     color: var(--main-text-color);
 }
