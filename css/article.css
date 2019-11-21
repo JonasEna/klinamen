@@ -57,6 +57,48 @@ body {
 
 }
 
+#share-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#share-buttons a {
+  text-decoration: none;
+  display: flex;
+  margin: 0;
+  border-radius:50%;
+}
+
+#share-buttons img {
+  width: 2rem;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.share-button {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+    filter: grayscale(100%);
+
+  filter: invert(100%);
+
+}
+
+.share-button:hover {
+  filter: brightness(120%);
+}
+
 .article-ingress {
     width: 90%;
     margin: auto;
