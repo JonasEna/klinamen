@@ -1,9 +1,9 @@
 :root {
-  --main-bg-color: white;
+  --main-bg-color: hsl(50,50%,99%);
   --main-ingress-color:hsl(25,12%,15%);
   --main-text-color: hsl(25,12%,15%);
   --light-text-color: hsl(40,5%,50%);
-  --lightest-text-color: hsl(50,10%,75%);
+  --lightest-text-color: hsl(60,20%,90%);
   --accent-color: hsl(30,90%,60%);
 }
 
@@ -18,9 +18,22 @@ body {
     margin-bottom: 1.5rem;
     overflow: hidden;
     height: 85vh;
-    box-shadow: 0px 0px 20px 20px  black;
-
+    /* box-shadow: 0px 0px 20px 20px  black; */
 }
+
+/* #cover::after {
+  position:absolute;
+  content: " ";
+  display:block;
+  left:0;
+  bottom:-20px;
+  width:100%;
+  border-style: solid;
+  border-width: 0 100vw 20px 0;
+  border-color:  black;
+    transform:rotate(2deg);
+
+} */
 
 .article-header-img {
     position: relative;
@@ -53,7 +66,7 @@ body {
 }
 
 .article-header-text-date {
-    color: orange;
+    color: var(--accent-color);
     font-size: 0.8em;
     margin-bottom: 0.8rem;
 }
@@ -69,7 +82,7 @@ body {
 .author {
   width: 100%;
   margin-top: 8px;
-  font-weight: 100;
+  font-weight: 400;
   color: var(--light-text-color)
 }
 
@@ -129,4 +142,9 @@ body {
     font-weight: 400;
     line-height: 1.25em;
     color: var(--main-text-color);
+}
+
+.article-text h4 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
