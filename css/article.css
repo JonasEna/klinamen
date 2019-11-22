@@ -1,5 +1,6 @@
 :root {
-  --main-bg-color: hsl(50,50%,99%);
+  --main-bg-color: hsl(50,20%,97%);
+  --image-text-color: hsl(50,10%,88%);
   --main-ingress-color:hsl(25,12%,15%);
   --main-text-color: hsl(25,12%,15%);
   --light-text-color: hsl(40,5%,50%);
@@ -138,13 +139,41 @@ body {
     max-width: 30em;
     margin: auto;
     margin-top: 1.5rem;
-    font-size: 1rem;
+    font-family: 'Georgia';
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 1.25em;
+    /* line-height: 1.25em; */
+    line-height: 1.4em;
     color: var(--main-text-color);
 }
 
+.article-text p {
+   margin-top: 0rem;
+}
+
 .article-text h4 {
+  font-family: 'Roboto', sans-serif;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+  text-transform: none;
+}
+
+.article-image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:var(--image-text-color);
+}
+
+.article-image-text {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 0.6rem;
+  padding-top: 0.4rem;
+  background-color: var(--image-text-color);
+  font-family: 'Roboto', serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--main-text-color);
+
 }
