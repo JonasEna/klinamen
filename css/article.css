@@ -1,8 +1,10 @@
 :root {
   --main-bg-color: white;
-  --main-ingress-color:black;
-  --main-text-color:rgba(0,0,0,0.84);
-  --light-text-color: grey;
+  --main-ingress-color:hsl(25,12%,15%);
+  --main-text-color: hsl(25,12%,15%);
+  --light-text-color: hsl(40,5%,50%);
+  --lightest-text-color: hsl(50,10%,75%);
+  --accent-color: hsl(30,90%,60%);
 }
 
 body {
@@ -16,7 +18,6 @@ body {
     margin-bottom: 1.5rem;
     overflow: hidden;
     height: 85vh;
-    /* box-shadow: inset 0 2px 4px 4px white; */
 }
 
 .article-header-img {
@@ -33,18 +34,19 @@ body {
     position: absolute;
     bottom: 3%;
     left: 5%;
-    color: white;
+    color: var(--lightest-text-color);
     opacity: 0.9;
     width: 90%;
     line-height: 1.25rem;
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .article-header-text-name {
     color: white;
-    font-size: 1.5em;
-    font-weight: 400;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
     text-shadow: 0 0 3px black;
     margin-bottom: 0.8rem;
 }
@@ -67,7 +69,8 @@ body {
 .author {
   width: 100%;
   margin-top: 8px;
-  opacity: 0.6;
+  font-weight: 100;
+  color: var(--light-text-color)
 }
 
 #share-buttons {
@@ -96,7 +99,7 @@ body {
   padding: 0;
   border-radius: 50%;
   display: flex;
-  margin-right: 0.6rem;
+  margin-left: 0.6rem;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   /* filter: grayscale(100%); 
