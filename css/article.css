@@ -129,10 +129,10 @@ body {
     font-family: 'Georgia';
     /* font-family: 'Roboto'; */
     /* font-size: 1.125rem; */
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     /* line-height: 1.3em; */
-    line-height: 1.3em;
+    line-height: 1.4em;
     color: var(--main-text-color);
 }
 
@@ -165,4 +165,10 @@ body {
   font-weight: 300;
   color: var(--main-text-color);
 
+}
+
+.sans {
+  font-family: 'Roboto';
+  font-size: 1.125rem;
+  line-height: 1.3rem;;
 }
