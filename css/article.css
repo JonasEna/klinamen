@@ -4,7 +4,7 @@
   --main-ingress-color:hsl(25,12%,15%);
   --main-text-color: hsl(25,12%,15%);
   --light-text-color: hsl(40,5%,50%);
-  --lightest-text-color: hsl(60,20%,90%);
+  --lightest-text-color: hsl(60,5%,75%);
   --accent-color: hsl(30,90%,60%);
 }
 
@@ -52,9 +52,10 @@ body {
     left: 5%;
     color: var(--lightest-text-color);
     width: 90%;
-    line-height: 1.25rem;
-    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
+    hyphens: auto;
 }
 
 .article-header-text-name {
