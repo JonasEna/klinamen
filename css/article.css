@@ -216,6 +216,12 @@ body {
   /* color: rgba(0,0,0,.5); */
 }
 
+.boxed-text h1 {
+  color:#EFEDCE;
+  letter-spacing: 0.02em;
+
+}
+
 .boxed-text h3 {
   color: black;
   opacity: 0.9;
