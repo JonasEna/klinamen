@@ -169,11 +169,23 @@ body {
 
 }
 
-.sans {
+.boxed-text-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--image-text-color);
+  /* background-color: hsl(60,20%,99%); */
+  /* background-color: hsl(30,10%,98%); */
+  box-shadow: 0 2px 10px 4px  hsla(0,0%,0%,0.05);
+  opacity: 0.95;
+}
+
+.boxed-text {
   width: 90%;
   max-width: 30em;
   margin: auto;
   margin-top: 1.5rem;
+  padding: 1rem;
   font-family: 'Roboto';
   font-size: 1rem;
   line-height: 1.3rem;
