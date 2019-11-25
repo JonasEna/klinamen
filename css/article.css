@@ -40,7 +40,8 @@ body {
     background-color: whitesmoke;
     background-color: black;
 
-    width: 80%;
+    width: 80vw;
+    height: 80vw;
     padding: 5%;
     /* line-height: 1.3rem; */
     border-radius: 50%;
@@ -63,7 +64,7 @@ body {
     text-transform: uppercase;
     /* text-shadow: 0 0 3px black; */
     margin-bottom: 0.8rem;
-    margin-top: 1.8rem;
+    margin-top: 2.4rem;
 
 }
 
@@ -77,7 +78,6 @@ body {
     hyphens: auto;
     color: var(--main-ingress-color);
     color: var(--lightest-text-color);
-  opacity: 0.9;
 }
 
 .article-header-text-date {
@@ -101,8 +101,9 @@ body {
 }
 
 #date-share {
-  /*width: 90%;*/
-  margin-top: 1rem;
+  width: 90%;
+  margin: auto;
+  /* margin-top: 1rem; */
   display: flex;
   justify-content: space-between;
   justify-content: center;
