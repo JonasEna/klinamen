@@ -74,6 +74,8 @@ body {
   width: 80%;
   margin: auto;
     /* letter-spacing: 0.04em; */
+  font-family: 'Alegreya Sans';
+
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
@@ -161,15 +163,33 @@ body {
 
 .first-character {
   float: left;
+  /* display: flex; */
   font-size: 5.15rem;
-  line-height: 3.65rem;
-  padding-top: 0.5rem;
+  line-height: 3.6rem;
+  padding-top: 0.535rem;
   padding-bottom: 0px;
   margin-bottom: 0px;
   margin-left: 5px;
   margin-right: 8px;
+  /* align-items: baseline; */
 }
 
+.article--text-ingress {
+  width: 90%;
+  margin: auto;
+  color: black;
+    /* letter-spacing: 0.04em; */
+  font-family: 'Overpass';
+  font-family: 'Alegreya Sans';
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    hyphens: auto;
+    color: var(--main-ingress-color);
+    margin-bottom: 1rem;
+
+}
 .article-text {
     width: 90%;
     max-width: 30em;
@@ -239,6 +259,9 @@ body {
   padding-bottom: 0rem;
   padding-top: 0;
   font-family: 'Roboto';
+  font-family: 'Overpass';
+  font-family: 'Alegreya Sans';
+
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.3rem;
@@ -250,6 +273,11 @@ body {
 .boxed-text h1 {
   color:#EFEDCE;
   letter-spacing: 0.02em;
+  font-family: 'Overpass';
+  font-family: 'Alegreya Sans SC';
+
+  font-weight:800;
+
 }
 
 .boxed-text h3 {
