@@ -126,7 +126,6 @@ body {
   display: flex;
   justify-content: space-between;
   justify-content: center;
-  
 }
 
 .date {
@@ -197,14 +196,14 @@ body {
   margin: auto;
   color: var(--main-text-color);
   text-align: center;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
   letter-spacing: -0.02em;
-  font-weight: 700;
+  font-weight: 800;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.article--text-ingress {
+.article-text-ingress {
   width: 90%;
   margin: auto;
   font-family: 'Alegreya Sans', sans-serif;
@@ -290,8 +289,7 @@ body {
   padding-bottom: 0rem;
   padding-top: 0;
   font-family: 'Roboto';
-  font-family: 'Overpass';
-  font-family: 'Alegreya Sans';
+  font-family: 'Alegreya Sans', sans-serif;
 
   font-size: 1.125rem;
   font-weight: 500;
@@ -304,10 +302,9 @@ body {
 .boxed-text h1 {
   color:#EFEDCE;
   letter-spacing: 0.02em;
-  font-family: 'Overpass';
-  font-family: 'Alegreya Sans SC';
-
-  font-weight:800;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
 
 }
 
