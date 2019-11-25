@@ -32,6 +32,7 @@ body {
     /* filter: brightness(40%); */
     height: 85vh;
     background-position: center;
+    z-index: -1;
 }
 
 .article-header-text {
@@ -51,6 +52,20 @@ body {
     border-left: 6px solid hsl(20, 50%,50%); 
     box-shadow: 5px 5px 25px rgba(0,0,0,0.2);
     box-shadow: 0px 5px 15px  hsl(20, 50%,60%);
+
+}
+
+.article-header-wrapper {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: -10rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    z-index: 10;
+    border-radius: 5px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.2);
 
 }
 
