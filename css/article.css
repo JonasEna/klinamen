@@ -181,7 +181,9 @@ body {
   width: 90%;
   margin: auto;
   color: var(--main-text-color);
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.02em;
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -194,7 +196,7 @@ body {
   font-family: 'Overpass';
   font-family: 'Alegreya Sans', sans-serif;
 
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 500;
     text-align: left;
     hyphens: auto;
@@ -211,7 +213,7 @@ body {
     /* font-family: 'Georgia'; */
     /* font-family: 'Roboto'; */
     /* font-size: 1.125rem; */
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
     /* line-height: 1.3em; */
     line-height: 1.4em;
