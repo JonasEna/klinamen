@@ -15,7 +15,7 @@ body {
 
 #cover {
     position: relative;
-    margin-bottom: 17rem;
+    margin-bottom: 2rem;
     /* overflow: hidden; */
     height: 85vh;
     opacity: 1;
@@ -176,13 +176,23 @@ body {
   /* align-items: baseline; */
 }
 
+.article-title {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  width: 90%;
+  margin: auto;
+  color: var(--main-text-color);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .article--text-ingress {
   width: 90%;
   margin: auto;
   color: black;
     /* letter-spacing: 0.04em; */
   font-family: 'Overpass';
-  font-family: 'Alegreya Sans';
+  font-family: 'Alegreya Sans', sans-serif;
 
     font-size: 1.5rem;
     font-weight: 500;
@@ -256,7 +266,7 @@ body {
   /* background-color: hsl(30,10%,98%); */
   background-color: #9cb8b3;
   box-shadow: 0 2px 10px 4px  hsla(0,0%,0%,0.05);
-  opacity: 0.95;
+  /* opacity: 0.95; */
 }
 
 .boxed-text {
@@ -273,7 +283,7 @@ body {
   font-weight: 500;
   line-height: 1.4rem;
   color: var(--main-ingress-color);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   /* color: rgba(0,0,0,.5); */
 }
 
@@ -288,8 +298,9 @@ body {
 }
 
 .boxed-text h3 {
-  color: rgba(--main-text-color);
-  font-size: 1rem;
+  color: var(--main-text-color);
+  font-size: 1.125rem;
+  font-weight: 700;
   padding: 0;
   margin: 0;
   margin-top: 2rem;
