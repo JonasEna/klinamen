@@ -2,6 +2,8 @@
   --main-bg-color: hsl(50,20%,96%);
   --main-art-color:white;
   --main-text-color:black;
+  --main-ingress-color:hsl(20,12%,20%);
+
   --light-text-color: grey;
 }
 
@@ -126,7 +128,7 @@ a:visited {
     position: relative;
     width: 90%;
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 800;
     margin-bottom: 0.8rem;
     margin-top: 0.8rem;
@@ -137,12 +139,14 @@ a:visited {
 .article-text {
     width: 90%;
     margin: auto;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     line-height: 1.25rem;
     font-weight: 500;
     margin-top: 0.8rem;
     padding-bottom: 1rem;
     hyphens: auto;
+      color: var(--main-ingress-color);
+
 }
 
 .article-date-wrapper {
@@ -159,7 +163,7 @@ a:visited {
 } */
 
 .article-date {
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 400;
     margin: 0;
     color: var(--light-text-color);
