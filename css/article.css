@@ -15,66 +15,23 @@ body {
 
 #cover-image {
     position: relative;
-    height: 70vh;
-    /* margin-bottom: 1rem; */
+    height: 75vh;
 }
 
 .article-header-img {
     position: relative;
-    /* background-image: url('img/Jupiter.jpg'); */
     background-size: cover;
-    /* filter: brightness(40%); */
-    height: 85vh;
+    height: 75vh;
     background-position: center;
     z-index: -1;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
-
-.article-header-wrapper {
-    background-color: black;
-    width: 90%;
-    max-width: 660px;
-    margin: auto;
-    margin-top: -96px;
-    margin-bottom: 3rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    z-index: 10;
-    /* border-top: 6px solid olivedrab; */
-    box-shadow: 0px 1px 25px rgba(0,0,0,0.2);
-}
 
 .article-title {
-  font-family: 'Alegreya Sans', sans-serif;
-  text-transform: uppercase;
-  /* font-family: 'Bitter', serif; */
-
-  width: 90%;
-  max-width: 660px;
-  margin: auto;
-  color: var(--main-text-color);
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 2.5rem;
-  letter-spacing: -0.02em;
-  font-weight: 800;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.article-title-2 {
   font-family: 'Alegreya Sans SC', sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* font-family: 'Bitter', serif; */
-  width: 90%;
-  max-width: 660px;
-  margin: auto;
-  background-color: hsl(60,30%,60%);
-  background-color: var(--main-text-color);
+  width: 100%;
   background-color: black;
   color: var(--main-text-color);
   color: white;
@@ -82,12 +39,15 @@ body {
   /* color: hsl(90,0%,30%); */
   text-align: center;
   font-size: 3rem;
-  line-height: 3rem;
+   font-size: 2.25rem;
+    font-weight: 700;
+  line-height: 2.25rem;
   /* letter-spacing: -0.02em; */
-  font-weight: 700;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+  /* margin-top: -70px; */
+  /* box-shadow: ; */
   /* mix-blend-mode: screen; */
   /* text-shadow: 0px 0px 2px black; */
 }
