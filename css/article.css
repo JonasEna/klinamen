@@ -16,6 +16,7 @@ body {
 #cover-image {
     position: relative;
     height: 85vh;
+    margin-bottom: 2rem;
 }
 
 .article-header-img {
@@ -26,11 +27,14 @@ body {
     height: 85vh;
     background-position: center;
     z-index: -1;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 
 .article-header-wrapper {
-    background-color: white;
+    background-color: black;
     width: 90%;
     max-width: 660px;
     margin: auto;
@@ -43,9 +47,49 @@ body {
     box-shadow: 0px 1px 25px rgba(0,0,0,0.2);
 }
 
+.article-title {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-transform: uppercase;
+  /* font-family: 'Bitter', serif; */
+
+  width: 90%;
+  max-width: 660px;
+  margin: auto;
+  color: var(--main-text-color);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-title-2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  /* text-transform: uppercase; */
+  /* font-family: 'Bitter', serif; */
+  position: absolute;
+  bottom: 2rem;
+  left: 0%;
+  width: 100%;
+  margin: auto;
+  color: var(--main-text-color);
+  color: hsl(40,50%,75%);
+  text-align: center;
+  font-size: 6rem;
+  line-height: 4rem;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  mix-blend-mode: screen;
+  /* text-shadow: 0px 0px 2px black; */
+}
 
 #date-share {
   width: 90%;
+  max-width: 660px;
+
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -111,21 +155,6 @@ body {
   /* align-items: baseline; */
 }
 
-.article-title {
-  /* font-family: 'Alegreya Sans', sans-serif; */
-  font-family: 'Bitter', serif;
-
-  width: 90%;
-  margin: auto;
-  color: var(--main-text-color);
-  text-align: center;
-  font-size: 2rem;
-  line-height: 2.5rem;
-  letter-spacing: -0.02em;
-  font-weight: 700;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-}
 
 hr.style1 {
   width: 61.8%;
@@ -147,7 +176,7 @@ hr.style1 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
-
+/* 
 .eclipse {
   float: left;
   display: flex;
@@ -157,9 +186,7 @@ hr.style1 {
   height: 3rem;
   border-radius: 50%;
   background-color: black;
-  /* border-top: 4px solid orange; */
-  /* border-left: 4px solid orange; */
-  box-shadow: -2px -2px 5px 2px orange;
+ box-shadow: -2px -2px 5px 2px orange;
   color: #EFEDCE;
   padding-left: 0.1rem;
   padding-top: 0.1rem;
@@ -169,7 +196,7 @@ hr.style1 {
   margin-right: 0.5rem;
   margin-bottom: 0;
   margin-top: -0.4rem;
-}
+} */
 
 .article-text {
     width: 90%;
@@ -268,6 +295,19 @@ hr.style1 {
     font-size: 3rem;
   }
 
+  .article-title-2 {
+    font-size: 10rem;
+    line-height: 8rem;
+
+  }
+
+  #date-share {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .date {
+    font-size: 1.25rem;
+  }
   .article-text-ingress {
     width: 660px;
     margin: auto;
