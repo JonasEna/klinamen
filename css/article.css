@@ -68,14 +68,10 @@ body {
 
 .article-title-2 {
   font-family: 'Alegreya Sans SC', sans-serif;
-
   text-transform: uppercase;
   /* font-family: 'Bitter', serif; */
-  /* position: absolute;
-  bottom: 3.3rem;
-  left: 0%; */
-  width: 100%;
-  /* max-width: 660px; */
+  width: 90%;
+  max-width: 660px;
   margin: auto;
   background-color: hsl(60,30%,60%);
   background-color: var(--main-text-color);
@@ -85,8 +81,8 @@ body {
   color: hsl(30,60%,94%);
   /* color: hsl(90,0%,30%); */
   text-align: center;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 3rem;
+  line-height: 3rem;
   /* letter-spacing: -0.02em; */
   font-weight: 700;
   padding-top: 1.5rem;
