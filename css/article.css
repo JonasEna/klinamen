@@ -20,7 +20,7 @@ body {
 
 .article-header-img {
     position: relative;
-    background-size: cover;
+    background-size: auto;
     height: 75vh;
     background-position: center;
     z-index: -1;
@@ -248,8 +248,9 @@ opacity: 0.8;
   margin: auto;
   color:#EFEDCE;
   letter-spacing: 0.02em;
+  text-transform: lowercase;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 800;
 }
 
