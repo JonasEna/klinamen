@@ -68,7 +68,6 @@ body {
 
 .article-title-2 {
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-family: sans-serif;
 
   text-transform: uppercase;
   /* font-family: 'Bitter', serif; */
@@ -83,13 +82,13 @@ body {
   background-color: black;
   color: var(--main-text-color);
   color: white;
-  color: hsl(30,40%,95%);
+  color: hsl(30,60%,94%);
   /* color: hsl(90,0%,30%); */
   text-align: center;
-  font-size: 3rem;
-  line-height: 3rem;
-  letter-spacing: -0.02em;
-  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  /* letter-spacing: -0.02em; */
+  font-weight: 700;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
