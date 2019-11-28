@@ -20,7 +20,7 @@ body {
 
 .article-header-img {
     position: relative;
-    background-size: auto;
+    background-size: cover;
     height: 75vh;
     background-position: center;
     z-index: -1;
