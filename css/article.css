@@ -32,6 +32,7 @@ body {
   /* text-transform: uppercase; */
   /* font-family: 'Bitter', serif; */
   width: 90%;
+  max-width: 660px;
   margin: auto;
   background-color: black;
   color: var(--main-text-color);
@@ -41,7 +42,7 @@ body {
   text-align: left;
   font-size: 3rem;
    font-size: 2.25rem;
-    font-weight: 700;
+    font-weight: 500;
   line-height: 2.25rem;
   /* letter-spacing: -0.02em; */
   padding-top: 1.5rem;
@@ -139,8 +140,8 @@ hr.style1 {
   width: 90%;
   margin: auto;
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 500;
   text-align: left;
   hyphens: auto;
   color: var(--main-ingress-color);
@@ -273,6 +274,7 @@ opacity: 0.8;
   }
   .article-title {
     font-size: 3rem;
+    font-weight: 500;
   }
 
   .article-title-2 {
@@ -292,7 +294,7 @@ opacity: 0.8;
     margin: auto;
     font-size: 1.75rem;
     line-height: 2.5rem;
-    font-weight: 800;
+    font-weight: 500;
   }
 
 
