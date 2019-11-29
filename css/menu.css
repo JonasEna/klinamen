@@ -69,7 +69,7 @@
   font-size: 1.3rem;   
   font-weight: 500;
   color: var(--pseudo-white);
-  /* color: var(--lightest-text-color); */
+  /* color: var(--lightest-text-color ); */
 
   margin-top: 90px;
 }
