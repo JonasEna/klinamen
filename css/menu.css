@@ -55,7 +55,7 @@
 #about-screen {
   position: fixed;
   z-index: 10;
-  background-color: black;
+  background-color: var(--pseudo-black);
   width: 100%;
   height: 100%;
   opacity: 0.95;
@@ -65,12 +65,12 @@
   width: 90%;
   max-width: 660px;
   margin: auto;
-  font-family: 'Roboto', sans-serif;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.3rem;   
   font-weight: 500;
-  color: black;
-  color: hsl(40,0%,80%);
+  color: var(--pseudo-white);
+  /* color: var(--lightest-text-color); */
+
   margin-top: 90px;
 }
 
