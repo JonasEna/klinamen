@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="css/article.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+
 
 
 
@@ -19,25 +22,51 @@
     <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
 
     <script src="src/navbar.js"></script>
+    <script src="src/menu.js"></script>
 
 </head>
 
 <body>
 
     <div id="navbar">
-        <a href="index.html">asymptotia</a>
-        <a href="#contact">om</a>
+        <div class="logo">
+            <a href="index.html">asymptotia</a>
+        </div>
+        <div class="hamburger" onclick="clickMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+
+    <div id="about-screen-position">
+        <div id="about-screen">
+            <div class="about-text">
+                Något mörkt ställde sig vid våra fem sinnen. Tomas Tranströmer skrev en dikt. Novalis-citat. Jag är
+                doktor i fysik och omåttligt intresserad av hur naturen fungerar.
+                <br>
+                <br>
+                Du kan nå mig på minadress@gmail.com.
+
+                <!-- <ul>
+                    <a href="index.html">
+                        <li class="list-item">Hem</li>
+                    </a>
+                    <li class="list-item">Om</li>
+                    <li class="list-item">Kontakt</li>
+                    <li class="list-item">Foton</li>
+
+                </ul>  -->
+            </div>
+        </div>
     </div>
 
     <section id="cover-image">
-        <div class="article-header">
-            <!-- <div class="article-header-img" style="background-image: url('img/feature.jpg')"> -->
-            <div class="article-header-img"
-                style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1)), url('img/cern1.jpg');">
+        <div class="article-header-img"
+            style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1)), url('img/cern1.jpg');">
+            <!-- <img src="img/cern1.jpg" style="visibility: hidden;" width=100%> -->
 
-
-
-            </div>
         </div>
     </section>
 
@@ -55,12 +84,13 @@
             ljuset.
             Om resultatet håller måste fysikerna göra om sina teorier i grunden. Sara Hansson,
             professor i fysik
-            vid Stockholms universitet, tvivlar dock på resultaten.
+            vid Stockholms universitet, tvivlar dock på resultaten. Gör det svarta inte 100% svart, testa med en annan
+            skugga (kanske lila?), ändra FB och Twitter
         </div>
 
         <div id="date-share">
             <div class="date">
-                Av Jonas Enander <br> 6 oktober 2019
+                Av Jonas Enander | 6 oktober 2019
             </div>
             <div class="share-buttons">
                 <div class="share-button">
