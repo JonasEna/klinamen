@@ -187,7 +187,7 @@ opacity: 0.8;
     color: var(--main-text-color);
 }
 
-.bold {
+.bold::first-line {
   font-weight: 700;
 }
 
