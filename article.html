@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="destination" content="">
     <title>Article</title>
 
     <link rel="stylesheet" href="css/article.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/colors.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,500,700,800,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
 
     <script src="src/navbar.js"></script>
@@ -25,91 +25,69 @@
 
 <body>
 
-    <div id="navbar">
+    <!--     
+For every article:
+    - update title 
+    - update meta description
+    - update all share-links and have anchor tags
+    - image alt tags
+     -->
+    <navbar id="navbar">
         <div class="logo">
-            <a href="index.html">asymptotia</a>
+            <a href="index.html">magdalenafältet</a>
         </div>
         <div class="hamburger" onclick="clickMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-    </div>
-
-
-    <div id="about-screen-position">
-        <div id="about-screen">
-            <div class="about-text">
-                Något mörkt ställde sig vid våra fem sinnen. Tomas Tranströmer skrev en dikt. Novalis-citat. Jag är
-                doktor i fysik och omåttligt intresserad av hur naturen fungerar.
-                <br>
-                <br>
-                Jag designar, kodar och skriver innehållet på den här sajten.
-                <br>
-                <br>
-                Du kan nå mig på minadress@gmail.com.
-
-                <!-- <ul>
-                    <a href="index.html">
-                        <li class="list-item">Hem</li>
-                    </a>
-                    <li class="list-item">Om</li>
-                    <li class="list-item">Kontakt</li>
-                    <li class="list-item">Foton</li>
-
-                </ul>  -->
-            </div>
-        </div>
-    </div>
+    </navbar>
 
     <section id="cover-image">
         <div class="article-header-img"
-            style="background-image: linear-gradient(to bottom, hsla(200,20%,10%,0) 75%, hsl(200,20%,10%,1)), url('img/cern1.jpg');">
-            <!-- <img src="img/cern1.jpg" style="visibility: hidden;" width=100%> -->
+            style="background-image: linear-gradient(to bottom, hsla(200,20%,10%,0) 75%, hsl(200,20%,10%,1)), url('img/cern-desktop.jpg');">
+            <img src="img/cern-desktop.jpg" style="visibility: hidden;" width=100%>
 
         </div>
     </section>
 
-    <div class="article-header-wrapper">
+    <header class="article-header-wrapper">
 
 
-
-        <div class="article-title">
+        <h1 class="article-title">
             snabbare än ljuset?
-        </div>
-        <div class="article-text-ingress">
+        </h1>
+        <h2 class="article-text-ingress">
             Partikelacceleratorn CERN rapporterade nyligen att de har observerat partiklar som färdas snabbare än
             ljuset.
             Om resultatet håller måste fysikerna göra om sina teorier i grunden. Sara Hansson,
             professor i fysik
             vid Stockholms universitet, tvivlar dock på resultaten.
-        </div>
+        </h2>
 
-        <div class="author-date">
+        <h3 class="author-date">
             Av Jonas Enander | 6 oktober 2019
-            <div class="author"></div>
-            <!-- <div class="date">6 oktober 2019</div> -->
-        </div>
+        </h3>
 
-        <div id="date-share">
 
-            <div class="share-buttons">
-                <div class="share-button">
-                    <a href="https://twitter.com/share?url=dodensberg.html" target="_blank">
-                        <img src="img/twitter.png" alt="Share on Twitter" />
-                    </a>
-                </div>
-                <div class="share-button">
-                    <a href="http://www.facebook.com/sharer.php?u=dodensberg.html" target="_blank">
-                        <img src="img/facebook.png" alt="Share on Facebook" />
-                    </a>
-                </div>
+        <div class="share-buttons">
+            <div class="share-button">
+                <a href="https://twitter.com/share?url=dodensberg.html" target="_blank">
+                    <img src="img/twitter.png" alt="Share on Twitter" />
+                </a>
+            </div>
+            <div class="share-button">
+                <a href="http://www.facebook.com/sharer.php?u=dodensberg.html" target="_blank">
+                    <img src="img/facebook.png" alt="Share on Facebook" />
+                </a>
             </div>
         </div>
-    </div>
 
-    <div class="article-text">
-        <p class="bold">
+    </header>
+
+
+    <article class="article-text">
+        <p class="bold-first-line">
             Den fjärde mars 1923 var en speciell dag för Gullstrand. Han hade packat sin
             resväska, betalat tre månaders hyra i förskott och tagit ut 30 000 kronor från sitt sparkonto.
         </p>
@@ -181,7 +159,7 @@
             sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-    </div>
+    </article>
 
     <div class="article-image">
         <img src="img/Mappar.png" width=100%>
@@ -190,7 +168,7 @@
         </div>
     </div>
 
-    <div class="article-text">
+    <article class="article-text">
         <p>
             Inset shadow on social media icons<br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -212,7 +190,7 @@
             sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-    </div>
+    </article>
 
     <div class="boxed-text-wrapper">
         <div class="boxed-header">
@@ -258,7 +236,7 @@
     </div>
     </div>
 
-    <div class="article-text">
+    <article class="article-text">
         <p>
             <span class="first-charater">I</span>nset shadow on social media icons<br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -290,13 +268,48 @@
             </p>
         </div>
 
-    </div>
+    </article>
 
     <footer class="footer">
         <div class="footer-text">
-            Inga kakor, inget nonsens.<br> Jag är bara glad att du är här.<br>
+            Kod och design av Osanna nejder
         </div>
     </footer>
+
+
+    <div id="about-screen-position">
+        <div id="about-screen">
+            <div class="about-text">
+                <div style="font-style: italic">
+                    Vi missade på Mars, kom ur dess bana<br>
+                    och för att undgå fältet Jupiter<br>
+                    vi lade oss på kurvan ICE-tolv<br>
+                    i Magdalenafältets yttre ring<br>
+                </div>
+                <br>
+                Bloggen har fått sitt namn från den plats där rymd&shy;skeppet Aniara tappar kontrollen och driver ut i
+                djuphavsrymden.
+                <br>
+                <br>
+
+                Här kan du läsa artiklar om kosmologi, vetenskaps&shy;historia och naturfilosofi.
+                <br><br>
+                Jag som skriver heter Jonas Enander och är doktor i fysik.
+                <br><br>
+                Du kan nå mig på minadress@gmail.com.
+                <!-- <ul>
+                        <a href="index.html">
+                            <li class="list-item">Hem</li>
+                        </a>
+                        <li class="list-item">Om</li>
+                        <li class="list-item">Kontakt</li>
+                        <li class="list-item">Foton</li>
+    
+                    </ul>  -->
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

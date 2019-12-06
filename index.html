@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Klinamen</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+    <title>Magdalenafältet</title>
 
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800,900&display=swap"
         rel="stylesheet">
@@ -15,63 +13,35 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <script src="src/navbar.js"></script>
     <script src="src/menu.js"></script>
 
     <style>
         #feature {
-            width: 100%;
-            height: 85vh;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)), url('img/Jupiter.jpg');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: flex-end;
+            /* background-image: linear-gradient(to bottom, hsla(200, 20%, 10%, 0) 50%, hsla(200, 20%, 10%, 1)), url('img/Jupiter.jpg'); */
+            background-image: linear-gradient(to bottom, hsla(200, 20%, 0%, 0) 50%, hsla(200, 0%, 10%, 1)), url('img/Jupiter.jpg');
         }
     </style>
 </head>
 
 <body>
-    <div id="navbar">
+
+    <navbar id="navbar">
         <div class="logo">
-            <a href="index.html">asymptotia</a>
+            <a href="index.html">magdalenafältet</a>
         </div>
         <div class="hamburger" onclick="clickMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-    </div>
-
-
-    <div id="about-screen-position">
-        <div id="about-screen">
-            <div class="about-text">
-                Något mörkt ställde sig vid våra fem sinnen. Tomas Tranströmer skrev en dikt. Novalis-citat. Jag är
-                doktor i fysik och omåttligt intresserad av hur naturen fungerar.
-                <br>
-                <br>
-                Jag designar, kodar och skriver innehållet på den här sajten.
-                <br>
-                <br>
-                Du kan nå mig på minadress@gmail.com.
-
-                <!-- <ul>
-                    <a href="index.html">
-                        <li class="list-item">Hem</li>
-                    </a>
-                    <li class="list-item">Om</li>
-                    <li class="list-item">Kontakt</li>
-                    <li class="list-item">Foton</li>
-
-                </ul>  -->
-            </div>
-        </div>
-    </div>
+    </navbar>
 
     <div id="feature">
         <div id="feature-text-wrapper">
@@ -80,7 +50,9 @@
                     jupiters hemligheter
                 </div>
                 <div class="feature-text-ingress">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    Att göra: Fixa navbar, responsive, html5kodning, färger, Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit, sed do eiusmod tempor incididunt ut
                     labore
                     et dolore
                     magna
@@ -102,7 +74,7 @@
                     </div>
                     <div class="article-text">
                         <span class="article-header">
-                            dödens berg ~
+                            dödens berg
                         </span>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
@@ -125,33 +97,29 @@
         </div>
 
         <div class="article-wrapper">
-            <div class="article">
-                <div class="article-image" style="background-image: url('img/eddington-einstein/eclipse.jpeg')">
-                </div>
-                <div class="article-text">
-                    <span class="article-header">
-                        einstein och solförmörkelsen ~
-                    </span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et dolore
-                    magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo
-                    consequat.<div class="article-date">
-                        <span>1 maj 2020</span>
+            <a href="einstein-och-solformorkelsen.html">
+                <div class="article">
+                    <div class="article-image" style="background-image: url('img/eddington-einstein/eclipse.jpg')">
+                    </div>
+                    <div class="article-text">
+                        <span class="article-header">
+                            einstein och solförmörkelsen ~
+                        </span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore
+                        magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.<div class="article-date">
+                            <span>1 maj 2020</span>
+                        </div>
                     </div>
                 </div>
-                <!-- <div class="article-date-wrapper">
-                    <div class="article-date">
-                        <h3><span>1 januari 2020</span></h3>
-                    </div>
-                </div> -->
-            </div>
+            </a>
         </div>
 
         <div class="article-wrapper">
-
             <div class="article">
                 <div class="article-image" style="background-image: url('img/majorana/majorana.jpg')">
                 </div>
@@ -165,19 +133,59 @@
                         <span>1 januari 2020</span>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <!-- <div class="article-date-wrapper">
+        <div class="article-wrapper">
+            <div class="article">
+                <div class="article-image" style="background-image: url('img/majorana/majorana.jpg')">
+                </div>
+                <div class="article-text">
+                    <span class="article-header">
+                        fysikern som försvann ~
+                    </span>
+                    Att göra: korrekt skalning av bilder. Responsive webdesign. Logoheader (annan färger? Kolla med
+                    Tipigrafica) Övergång från feature till artikeln? Om-sida
                     <div class="article-date">
-                        <h3><span>1 januari 2020</span></h3>
+                        <span>1 januari 2020</span>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
 
 
+
     </div>
 
+    <div id="about-screen-position">
+        <div id="about-screen">
+            <div class="about-text">
+                <div style="font-style: italic">
+                    Vi missade på Mars, kom ur dess bana<br>
+                    och för att undgå fältet Jupiter<br>
+                    vi lade oss på kurvan ICE-tolv<br>
+                    i Magdalenafältets yttre ring<br>
+                </div>
+                <br>
+                Bloggen har fått sitt namn från den plats där rymd&shy;skeppet Aniara tappar kontrollen och driver ut i
+                djuphavsrymden.
+                <br>
+                <br>
 
+                Här kan du läsa artiklar om kosmologi, vetenskaps&shy;historia och naturfilosofi.
+                <br><br>
+                Jag som skriver heter Jonas Enander och är doktor i fysik.
+                <br><br>
+                Du kan nå mig på minadress@gmail.com.
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-text">
+            Kod och design av Najaders neon.
+        </div>
+    </footer>
 </body>
 
 </html>

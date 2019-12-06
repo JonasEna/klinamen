@@ -1,0 +1,13 @@
+:root {
+  --main-bg-color: hsl(50,20%,96%);
+  --image-text-color: hsl(50,10%,88%);
+  --main-ingress-color:hsl(20,12%,20%);
+  --main-text-color: hsl(25,20%,15%);
+  --light-text-color: hsl(40,5%,30%);
+  --lightest-text-color: hsl(60,5%,70%);
+  --pseudo-white: hsl(30,40%,94%);
+  --accent-color: hsl(30,90%,60%);
+  --pseudo-black: hsl(200,20%,10%);
+  --boxed-header: #EFEDCE;
+  --link-color: hsl(40,50%,50%);
+}

@@ -3,15 +3,12 @@
 .hamburger {
   display: inline-block;
   cursor: pointer;
-  /* background-color: black; */
-    /* opacity: 0.9; */
-  /* z-index: 100; */
   -webkit-tap-highlight-color: transparent;
 }
 
 .bar1, .bar2, .bar3 {
   width: 30px;
-  height: 2px;
+  height: 3px;
   background-color: white;
   margin: 5px 0;
   border-radius: 100%;
@@ -68,6 +65,7 @@
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.3rem;   
   font-weight: 500;
+  hyphens: manual;
   color: var(--pseudo-white);
   /* color: var(--lightest-text-color ); */
 
