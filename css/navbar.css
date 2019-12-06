@@ -1,6 +1,6 @@
 #navbar {
   background-color: var(--pseudo-black); /* Black background color */
-  color: hsl(30,60%,94%);
+  color: var(--pseudo-white);
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
@@ -23,6 +23,7 @@
   font-weight: 500;
   font-size: 1.25rem;
   color: white;
+  color: var(--accent-color)
 }
 
 .logo a {

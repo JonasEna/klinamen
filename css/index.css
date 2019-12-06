@@ -120,7 +120,8 @@ a:visited {
     cursor: pointer;
     background-color: hsl(100,15%,90%);
     background-color: var(--pseudo-black);
-    color: var(--main-ingress-color);
+    background-color: hsl(220,20%,15%);
+    /* color: var(--main-ingress-color); */
 }
 
 .article-image {
