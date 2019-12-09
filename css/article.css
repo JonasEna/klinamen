@@ -188,6 +188,7 @@ blockquote {
   font-weight: 500;
   line-height: 1.4rem;
   color: var(--main-ingress-color);
+  hyphens: auto;
 }
 
 .boxed-header {
@@ -213,6 +214,8 @@ blockquote {
   display: flex;
   justify-content: flex-end;
   margin: 2rem;
+    margin-right: 0;
+
 }
 
 .boxed-text img {
@@ -222,6 +225,13 @@ blockquote {
   margin-bottom: 1rem;
   border-radius: 50%;
   border: 4px solid var(--main-bg-color);
+}
+
+.boxed-text img {
+  margin: 0.5rem;
+  float: right;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
 }
 
 .share-info {
@@ -312,6 +322,11 @@ blockquote {
     line-height: 1.8rem;
     hyphens: auto;
   }
+
+  .boxed-text img {
+    margin: 1.5rem;
+    margin-right: 0;
+  }
   
   .boxed-header {
     font-size: 3rem;
@@ -322,12 +337,7 @@ blockquote {
   }
 
 
-  .boxed-text img {
-    margin: 2rem;
-    float: right;
-    -webkit-shape-outside:circle();
-    shape-outside:circle();
-   }
+ 
 
 
   .boxed-text h3 {
