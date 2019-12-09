@@ -7,7 +7,7 @@
   --lightest-text-color: hsl(60,5%,75%);
   --pseudo-white: hsl(30,40%,94%);
   --accent-color: hsl(30,90%,60%);
-  --pseudo-black: hsl(200,20%,10%);
+  --pseudo-black: hsl(200,20%,1%);
   --boxed-header: #EFEDCE;
   --link-color: hsl(40,50%,50%);
 }

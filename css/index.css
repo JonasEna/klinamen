@@ -15,7 +15,6 @@ box-sizing: border-box;
 
 body {
     background-color: var(--main-bg-color);
-    background-color: var(--pseudo-black);
     margin: 0;
     font-family: 'Alegreya Sans', sans-serif;
 }
@@ -61,7 +60,7 @@ a:visited {
 #feature {
     width: 100%;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     height: 85vh;
     background-size: cover;
     background-position: center center;
@@ -71,6 +70,7 @@ a:visited {
 
 #feature-text-wrapper {
     padding: 5%;
+    padding-bottom: 25px;
     cursor: pointer;
 }
 
@@ -81,21 +81,23 @@ a:visited {
 .feature-text-header {
     font-family: 'Alegreya Sans SC', sans-serif;
     text-shadow: 0px 0px 2px black;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0.6rem;
 }
 
 .feature-text-ingress {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 500;
+    color: var(--pseudo-white);
     color: var(--lightest-text-color);
+
 
 }
 
 .feature-text-read-more {
     margin-top: 0.6rem;
-    font-size: 1.25em;
+    font-size: 1.125em;
     font-weight: 500;
     color: orange;
 }
@@ -118,10 +120,9 @@ a:visited {
     position: relative;
     width: 100%;
     cursor: pointer;
-    background-color: hsl(100,15%,90%);
-    background-color: var(--pseudo-black);
-    background-color: hsl(220,20%,15%);
+    /* background-color: hsl(220,20%,15%); */
     /* color: var(--main-ingress-color); */
+    background-color: var(--image-text-color);
 }
 
 .article-image {
@@ -141,8 +142,8 @@ a:visited {
     font-weight: 700;
     margin-bottom: 0.8rem;
     margin-top: 0.8rem;
-     color: black;
-    color: var(--pseudo-white); 
+     /* color: black; */
+    color: var(--pseudo-black); 
 
 }
 
@@ -156,7 +157,9 @@ a:visited {
     padding-bottom: 8px;
     hyphens: auto;
     color: var(--main-ingress-color);
-    color: var(--lightest-text-color); 
+    color: var(--lightest-text-color);
+  color: var(--main-text-color);
+
 }
 
 .article-date-wrapper {
@@ -177,9 +180,11 @@ a:visited {
     font-weight: 400;
     margin: 0;
     color: var(--lightest-text-color);
+    color: var(--main-ingress-color);
+
     position: relative;
     text-align: center;
-    font-family: 'Alegreya Sans', sans-serif;
+    /* font-family: 'Alegreya Sans', sans-serif; */
     opacity: 0.8;
     margin-top: 0.4rem;
    
@@ -198,7 +203,15 @@ a:visited {
     }
 
     #feature-text-wrapper {
-        width: 50em;
+        width: 660px;
+    }
+
+    .feature-text-header {
+        font-size: 2.25rem;
+    }
+
+    .feature-text-ingress {
+        font-size: 1.25rem;
     }
 
     #articles {
@@ -207,12 +220,13 @@ a:visited {
         display: grid;
         grid-template-columns: 1fr;
     }
+
   .article-header {
         font-size: 1.25rem;
     }
     .article-text {
-        width: 100%;
-         font-size: 1.25rem;
+        width: 90%;
+        font-size: 1.25rem;
         line-height: 1.5rem;
     }
     .article-image {
@@ -223,6 +237,11 @@ a:visited {
 }
 
 @media (min-width: 1100px) {
+
+    #feature-text-wrapper {
+        min-width: 660px;
+        width: 66%;
+    }
 
     #articles {
         width: 1100px;
@@ -241,6 +260,7 @@ a:visited {
   
 
     .article-text {
-       
+       width: 90%;
+
     }
 }

@@ -30,6 +30,10 @@
   border-bottom: none;
 }
 
+.logo a:hover {
+  background-color: unset;
+}
+
 #navbar .hamburger {
   margin-left: 5%;
   margin-right: 5%;

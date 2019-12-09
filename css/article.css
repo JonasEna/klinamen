@@ -59,7 +59,7 @@ a:hover {
   font-size: 1.25rem;
   font-weight: 500;
   text-align: left;
-  hyphens: auto;
+  hyphens: manual;
   color: var(--lightest-text-color);
   margin-bottom: 1rem;
 }
@@ -196,6 +196,7 @@ blockquote {
   text-transform: lowercase;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 2rem;
+  line-height: rem;
   font-weight: 800;
 }
 
@@ -314,6 +315,7 @@ blockquote {
   
   .boxed-header {
     font-size: 3rem;
+    line-height: 3rem;
     margin: auto;
     margin-bottom: 2rem;
     margin-top: 1rem;
@@ -321,7 +323,7 @@ blockquote {
 
 
   .boxed-text img {
-    margin: 1rem;
+    margin: 2rem;
     float: right;
     -webkit-shape-outside:circle();
     shape-outside:circle();
