@@ -319,18 +319,9 @@ blockquote {
     margin-top: 1rem;
   }
 
-  .boxed-image {
-    margin: 0rem;
-    /* display: table; */
-    float: right;
-    display: inline;
-  }
 
   .boxed-text img {
-    /* width: 50%; */
     margin: 1rem;
-    /* margin-right: -250px;
-    margin-left: 50px; */
     float: right;
     -webkit-shape-outside:circle();
     shape-outside:circle();
