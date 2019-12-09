@@ -8,6 +8,21 @@ body {
     height: 75vh;
 }
 
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid var(--link-color);
+   -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+
+a:hover {
+  background-color: var(--link-color);
+}
+
+
 .article-header-img {
     position: relative;
     background-size: cover;
@@ -75,6 +90,8 @@ body {
 
 .share-buttons a {
   text-decoration: none;
+  border-bottom: none;
+
   display: flex;
   margin: 0;
   border-radius:50%;
@@ -101,17 +118,6 @@ body {
   filter: brightness(120%);
 }
 
-.article-text a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 2px solid var(--link-color);
-   -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-}
-
-.article-text a:hover {
-  background-color: var(--link-color);
-}
 
 .article-text {
     width: 90%;
@@ -238,7 +244,7 @@ blockquote {
   }
 
   .author-date {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   #date-share {
@@ -249,7 +255,7 @@ blockquote {
   .article-text-ingress {
     width: 660px;
     margin: auto;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 400;
     hyphens: none;
@@ -310,6 +316,7 @@ blockquote {
     font-size: 3rem;
     margin: auto;
     margin-bottom: 2rem;
+    margin-top: 1rem;
   }
 
   .boxed-image {
