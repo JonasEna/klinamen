@@ -10,16 +10,17 @@
   width: 30px;
   height: 3px;
   background-color: white;
+  background-color: var(--accent-color);
   margin: 5px 0;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   transition: 0.4s;
   opacity: 1;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-8px, 2px) ;
+  transform: rotate(-45deg) translate(-8px, 2px) ;
   /* background-color: white; */
 }
 
@@ -30,8 +31,8 @@
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-9px, -4px) ;
+  transform: rotate(45deg) translate(-9px, -4px) ;
   /* background-color: white; */
 
 }
@@ -67,15 +68,13 @@
   font-weight: 500;
   hyphens: manual;
   color: var(--pseudo-white);
-  /* color: var(--lightest-text-color ); */
   color: var(--lightest-text-color);
-
   margin-top: 90px;
 }
 
 @media (min-width: 720px) {
   .about-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 

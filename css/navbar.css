@@ -9,7 +9,6 @@
   box-shadow: 0 4px 20px 6px  hsla(0,0%,0%,0.25);
   display: flex;
   justify-content: space-between;
-  /* justify-content: center; */
   align-items: center;
   z-index: 50;
   opacity: 0.9;
@@ -22,7 +21,6 @@
   font-family: 'Alegreya Sans SC',sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
-  color: white;
   color: var(--accent-color)
 }
 
