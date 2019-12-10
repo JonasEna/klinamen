@@ -153,6 +153,17 @@ a:hover {
   background-color:var(--image-text-color);
 }
 
+.article-image-small {
+  width: 50%;
+  margin: 0;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding: 0;
+  background-color:var(--image-text-color);
+  float: right;
+}
+
+
 .article-image-text {
   width: 90%;
   margin: auto;
@@ -167,6 +178,8 @@ a:hover {
 
 blockquote {
   font-style: italic;
+    hyphens: manual;
+
 }
 
 .boxed-text-wrapper {
@@ -292,15 +305,7 @@ blockquote {
     margin-bottom: 2rem;
   }
 
-  .float-right {
-    margin-top: 0;
-    margin-left: 2rem;
-    margin-right: 50px;
-    width: 45%;
-    max-width: 350px;
-    display: float;
-    float: right;
-  }
+  
 
   .article-image-text {
     width: 90%;
