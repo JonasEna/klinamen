@@ -74,25 +74,21 @@ a:visited {
     cursor: pointer;
 }
 
-#feature-text {
-    color: white;
-}
-
 .feature-text-header {
     font-family: 'Alegreya Sans SC', sans-serif;
     text-shadow: 0px 0px 2px black;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0.6rem;
+    color: white;
+
 }
 
 .feature-text-ingress {
     font-size: 1.125rem;
     font-weight: 500;
     color: var(--pseudo-white);
-    color: var(--lightest-text-color);
-
-
+    /* color: var(--lightest-text-color); */
 }
 
 .feature-text-read-more {
