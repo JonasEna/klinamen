@@ -326,6 +326,7 @@ blockquote {
   .boxed-text img {
     margin: 1.5rem;
     margin-right: 0;
+    margin-top: 0;
   }
   
   .boxed-header {
@@ -335,10 +336,6 @@ blockquote {
     margin-bottom: 2rem;
     margin-top: 1rem;
   }
-
-
- 
-
 
   .boxed-text h3 {
     margin-top: 0;
